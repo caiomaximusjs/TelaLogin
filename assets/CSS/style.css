@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Oswald:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body{
+    background-color: #01171f;
+    background-image: url("https://www.florence.edu.br/blog/wp-content/uploads/2021/10/Florence-quanto-ganha-um-dentista.jpg");
+    background-blend-mode: overlay;   
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0.5px 1px 0.5px 1px;
+}
+form h3{
+    text-align: center;
+    color:#013142;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.caixas{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    background-color: rgb(224, 233, 246);
+    border-radius: 2rem;
+}
+form input#enviar{
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    cursor: pointer;
+    background-color: #013142;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+}
+form input#enviar:hover{
+   background-color: rgb(0, 33, 45); 
+}
+img#logo{
+   width: 7.5rem;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+form a{
+  color: #023f56;
+  font-size: 1.5rem; 
+  justify-items: flex-end;
+  padding-left: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+form a:hover{
+    color: rgb(0, 33, 45);
+    transform: scale(1.1); 
+}
+div#icones{
+    display: flex;
+    justify-content: flex-end;
+}
+a#esqueci{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    text-align: center; 
+    margin-left: -1rem;  
+}
+a#esqueci:hover{
+    color: red;
+}
+@media only screen and (max-width: 900px){
+  img#logo{
+      margin-bottom: 5rem;
+  }  
+}
